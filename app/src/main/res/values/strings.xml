@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Secondprogram</string>
+    <string name="input">Input RMB</string>
+    <string name="helllo">Hello</string>
+    <string name="btn1">DOLLAR</string>
+    <string name="btn2">EURO</string>
+    <string name="btn3">WON</string>
+    <string name="btn4">convert</string>
+    <string name="btn5">Save</string>
+    <string name="input_dollar">input dollar_rate</string>
+    <string name="input_euro">input euro_rate</string>
+    <string name="input_won">input won_rate</string>
+</resources>
