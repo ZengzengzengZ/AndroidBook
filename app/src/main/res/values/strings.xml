@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">Secondprogram</string>
     <string name="input">Input RMB</string>
     <string name="helllo">Hello</string>
@@ -10,4 +11,12 @@
     <string name="input_dollar">input dollar_rate</string>
     <string name="input_euro">input euro_rate</string>
     <string name="input_won">input won_rate</string>
+    <string name="pointA">0</string>
+    <string name="pointA3">+3POINTS</string>
+    <string name="pointA2">+2POINTS</string>
+    <string name="pointA1">+1POINTS</string>
+    <string name="pointB">0</string>
+    <string name="pointB3">+3POINTS</string>
+    <string name="pointB2">+2POINTS</string>
+    <string name="pointB1">+1POINTS</string>
 </resources>
