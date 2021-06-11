@@ -207,8 +207,6 @@ public class MainActivity extends AppCompatActivity implements Runnable {
     }
 
 
-
-
     private String inputStream2String(InputStream inputStream) throws IOException {
         final int bufferSize = 1024;
         final char[] buffer = new char[bufferSize];
@@ -221,6 +219,9 @@ public class MainActivity extends AppCompatActivity implements Runnable {
         }
         return out.toString();
     }
+
+
+
 }
 
 

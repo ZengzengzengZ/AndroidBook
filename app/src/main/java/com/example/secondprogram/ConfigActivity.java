@@ -20,6 +20,7 @@ public class ConfigActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_config);
 
+        //接收传入的数据
         Intent intent=getIntent();
         float dollar2=intent.getFloatExtra("DOLLAR",0.0f);
         float euro2=intent.getFloatExtra("EURO",0.0f);
@@ -34,11 +35,12 @@ public class ConfigActivity extends AppCompatActivity {
         euro = findViewById(R.id.input_euro);
         won = findViewById(R.id.input_won);
 
-        //放入控件中
+        //将接受的数据在控件显示
         dollar.setText(String.valueOf(dollar2));
         euro.setText(String.valueOf(euro2));
         won.setText(String.valueOf(won2));
     }
+
     public void save(View btn){
         //获取新输入的数据
         float newDollar=Float.parseFloat(dollar.getText().toString());
@@ -49,7 +51,7 @@ public class ConfigActivity extends AppCompatActivity {
         Log.i(TAG,"oneCreate: newEuro="+newEuro);
         Log.i(TAG,"oneCreate: newWon="+newWon);
 
-        //放入intent中
+        //将新输入的数据放入intent中，传回
         Intent ret=getIntent();
         Bundle bdl=new Bundle();
         bdl.putFloat("key_dollar",newDollar);
